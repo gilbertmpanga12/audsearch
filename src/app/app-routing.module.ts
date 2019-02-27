@@ -8,6 +8,10 @@ export const routes: Routes = [
   {
     path: 'top-stories',
     loadChildren: './top-audicles/top-audicles.module#TopAudiclesModule'
+  },
+  {
+    path: 'results',
+    loadChildren: './results/results.module#ResultsModule'
   }
 ];
 
