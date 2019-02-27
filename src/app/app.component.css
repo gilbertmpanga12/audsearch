@@ -180,3 +180,9 @@ a{
     padding: 0.5rem 1rem;
     border-radius: 0.5rem;
 }
+.long-cta{
+  width: 236px;
+  margin-left: 27.33%;
+  border-radius: 0.5rem;
+  margin-top: 5%;
+}
