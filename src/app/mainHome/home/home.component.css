@@ -31,8 +31,8 @@ h6 {
 }
 .colored-banner{
   background-color: initial!important;
-    background-image: -webkit-radial-gradient(#47e6b1,#22c88a 70%,transparent 70.1%);
-    background-image: radial-gradient(#47e6b1,#22c88a 70%,transparent 70.1%);
+    background-image: -webkit-radial-gradient(#2196f3,#1e88e5 70%,transparent 70.1%);
+    background-image: radial-gradient(#2196f3,#1e88e5 70%,transparent 70.1%);
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: 200% 150%;
