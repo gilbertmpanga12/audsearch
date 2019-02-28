@@ -222,3 +222,17 @@ text-decoration: underline !important;
 color:#1e88e5 !important;
 cursor: pointer;
 }
+
+.fab{
+  background:#1e88e5 !important;
+  height:55px;
+  width:55px;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 10%;
+  left: 50%;
+}
+.fas{
+  font-size: 18px;
+    padding-top: 7px;
+}
