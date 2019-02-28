@@ -34,3 +34,11 @@ h2:hover{
   text-decoration-color: #1e88e5;
   cursor: pointer;
 }
+.is-transparent{
+  background: transparent !important;
+  color:#333333;
+}
+.is-transparent:hover{
+  color:#333333;
+  background: none;
+}
