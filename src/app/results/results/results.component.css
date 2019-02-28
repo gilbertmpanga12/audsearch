@@ -1,0 +1,24 @@
+.search-input{
+  /* border:none;
+  outline: none; */
+  background: url('../../../assets/search.png') no-repeat scroll  98% 4px   !important;
+  font-size: 17px;
+  padding-left: 12px;
+  margin-left: 5%;
+}
+
+.navbar-brand{
+  font-size: 1.50rem;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  color: #1e88e5 !important;
+}
+
+.navbar-brand:hover{
+  color:#2196f3 !important;
+}
+
+.navbar{
+  border-bottom: 0.1px solid #ccc;
+}
+
