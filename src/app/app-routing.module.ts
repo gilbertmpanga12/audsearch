@@ -12,6 +12,10 @@ export const routes: Routes = [
   {
     path: 'results',
     loadChildren: './results/results.module#ResultsModule'
+  },
+  {
+    path: 'audpress',
+    loadChildren: './audpress/audpress.module#AudpressModule'
   }
 ];
 
