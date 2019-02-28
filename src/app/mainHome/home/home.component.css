@@ -84,6 +84,9 @@ h6 {
   width:100%;
   border:none;
   outline: none;
+  background: url('../../../assets/search.png') no-repeat scroll -2px 1px  !important;
+  padding-left:30px;
+  font-size: 17px;
 }
 .background-white{
   background: #fff;
