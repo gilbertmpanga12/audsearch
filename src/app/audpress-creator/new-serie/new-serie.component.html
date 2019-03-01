@@ -1,3 +1,47 @@
-<p>
-  new-serie works!
-</p>
+<div class="container">
+  <br><br>
+  <div class="row justify-content-left">
+    <div class="col-md-2"></div>
+    <div class="col-6 col-lg-6 col-xl-6">
+      <h2 class="titles">Create new audicle</h2>
+      <p>is simply dummy text of the printing and typesetting printing</p>
+    </div>
+  </div>
+  <div class="row justify-content-left">
+      <div class="col-md-2"></div>
+      <div class="col-7 col-lg-7 col-xl-7">
+        <br>
+          <form>
+              <div class="form-group">
+                  <div class="form-group">
+                      <label for="title"><strong>Title</strong></label>
+                      <input type="text" class="form-control heigten" id="title" aria-describedby="titleHelp"
+                      placeholder="e.g How to train your huskies">
+                      <small id="titleHelp" class="form-text text-muted">Title of the serie</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="description"><strong>Description</strong></label>
+                        <textarea type="text" class="form-control" id="description" rows="3"
+
+                        aria-describedby="descHelp"
+                        placeholder="e.g Pet Training Series: How to Train a Husky Puppy. Tell your puppy that you are in charge.."></textarea>
+                        <small id="descHelp" class="form-text text-muted">This appears after title of the serie
+                          in search results
+                        </small>
+                      </div>
+                      <div class="form-group">
+                        <button class="btn btn-primary" id="audicleBtn">
+                            <i class="fas fa-microphone-alt" style="font-size: 22px;"></i>
+                        </button>
+                      </div>
+
+                </div>
+          </form>
+      </div>
+
+  </div>
+ <figure class="close-btn" routerLink="/audpress-dashboard">
+    <img src="../../../assets/close.png" >
+    <p>&nbsp;&nbsp;ESC</p>
+ </figure>
+</div>

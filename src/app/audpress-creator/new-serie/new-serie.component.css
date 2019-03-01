@@ -1,0 +1,28 @@
+.titles{
+  font-weight: 700;
+  font-size: 2.6em;
+  padding-top: 20px;
+}
+.form-control{
+  padding: 27px 0.75rem !important;
+
+}
+.heigten{
+  height: 56px !important;
+}
+#audicleBtn{
+  height: 75px !important;
+  width: 75px !important;
+  border-radius: 50% !important;
+  margin-left: 44.3%;
+  margin-top: 4%;
+}
+.close-btn{
+  position: absolute;
+    top: 3.5%;
+    right: 4%;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
