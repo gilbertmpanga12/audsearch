@@ -3,6 +3,11 @@
     <div class="row justify-content-center" style="margin-top:8%;">
       <div class="col-md-2"></div>
       <div class="col-6 col-lg-6 col-xl-6">
+          <div
+          *ngIf="showLoader"
+          class="spinner-border text-primary" role="status" style="margin-left: 24.3%;">
+              <span class="sr-only">Loading...</span>
+            </div>
         <h2 class="titles">Audsearch</h2>
         <p>Sign in or sign up using any of the above methods*</p>
 
@@ -32,6 +37,7 @@
 
 
   </div>
+
 <br>
 <br>
 <br>

@@ -32,6 +32,7 @@ export class MainService {
     return this.firebaseAuthState !== null;
   }
   logout() {
+    localStorage.removeItem('loader');
     this.af.auth.signOut();
   }
 }
