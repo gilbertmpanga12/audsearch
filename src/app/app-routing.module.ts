@@ -1,4 +1,5 @@
-import { Routes, RouterModule } from '@angular/router';
+import { Routes} from '@angular/router';
+import {MainGuard} from './main.guard';
 
 export const routes: Routes = [
   {
@@ -19,7 +20,8 @@ export const routes: Routes = [
   },
   {
     path: 'audpress-dashboard',
-    loadChildren: './audpress-creator/audpress-creator.module#AudpressCreatorModule'
+    loadChildren: './audpress-creator/audpress-creator.module#AudpressCreatorModule',
+    canActivate: [MainGuard]
   },
   {
     path: 'auth',

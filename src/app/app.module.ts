@@ -7,6 +7,7 @@ import { AngularFireModule } from '@angular/fire';
 import { environment } from '../environments/environment';
 import { AngularFireAuthModule } from '@angular/fire/auth';
 import {MainService} from './main.service';
+import {MainGuard} from './main.guard';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,7 @@ import {MainService} from './main.service';
     AngularFireModule.initializeApp(environment.firebase),
     AngularFireAuthModule
   ],
-  providers: [MainService],
+  providers: [MainService, MainGuard],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
