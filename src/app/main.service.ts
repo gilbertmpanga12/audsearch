@@ -31,4 +31,7 @@ export class MainService {
   get isAuthenticated() {
     return this.firebaseAuthState !== null;
   }
+  logout() {
+    this.af.auth.signOut();
+  }
 }
