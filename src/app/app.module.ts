@@ -3,6 +3,10 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import {RouterModule} from '@angular/router';
 import {routes} from './app-routing.module';
+import { AngularFireModule } from '@angular/fire';
+import { environment } from '../environments/environment';
+import { AngularFireAuthModule } from '@angular/fire/auth';
+import {MainService} from './main.service';
 
 @NgModule({
   declarations: [
@@ -10,9 +14,11 @@ import {routes} from './app-routing.module';
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot(routes)
+    RouterModule.forRoot(routes),
+    AngularFireModule.initializeApp(environment.firebase),
+    AngularFireAuthModule
   ],
-  providers: [],
+  providers: [MainService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
