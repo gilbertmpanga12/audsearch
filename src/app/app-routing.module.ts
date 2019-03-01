@@ -20,6 +20,10 @@ export const routes: Routes = [
   {
     path: 'audpress-dashboard',
     loadChildren: './audpress-creator/audpress-creator.module#AudpressCreatorModule'
+  },
+  {
+    path: 'auth',
+    loadChildren: './auth/auth.module#AuthModule'
   }
 ];
 
